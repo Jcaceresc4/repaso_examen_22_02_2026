@@ -31,7 +31,7 @@ class Docente : Persona{
 	void setProfesion(string p){profesion=p;}
 	void setSalario(float s){salario=s;}
 	//get
-	void getCui(string c){cui = c;	}
+	void getCui(string c){cui = c;}
 	void getNombres(string nom){nombres = nom;}
 	void getApellidos(string ape){apellidos = ape;}
 	void getDireccion(string dire){direccion = dire;}
