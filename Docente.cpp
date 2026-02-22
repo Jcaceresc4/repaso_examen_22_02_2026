@@ -42,10 +42,10 @@ class Docente : Persona{
 	void getProfesion(string p){profesion=p;}
 	void getSalario(float s){salario=s;}
 	//mostrar 
-	void mostrar(){
+	void leer(){
 		cout<<"_________________________"<<endl;
 		cout<<cui<<","<<nombres<<","<<apellidos<<","<<direccion<<","<<telefono<<genero<<","<<codigo<<","<<nit<<","<<profesion<<","<<salario<<endl;
 	}
-		void leer();
+	
 };
 
